@@ -1,0 +1,15 @@
+C:\network\cc\AntMaze\bin\Debug\net8.0\AntMaze.exe
+C:\network\cc\AntMaze\bin\Debug\net8.0\AntMaze.deps.json
+C:\network\cc\AntMaze\bin\Debug\net8.0\AntMaze.runtimeconfig.json
+C:\network\cc\AntMaze\bin\Debug\net8.0\AntMaze.dll
+C:\network\cc\AntMaze\bin\Debug\net8.0\AntMaze.pdb
+C:\network\cc\AntMaze\obj\Debug\net8.0\AntMaze.GeneratedMSBuildEditorConfig.editorconfig
+C:\network\cc\AntMaze\obj\Debug\net8.0\AntMaze.AssemblyInfoInputs.cache
+C:\network\cc\AntMaze\obj\Debug\net8.0\AntMaze.AssemblyInfo.cs
+C:\network\cc\AntMaze\obj\Debug\net8.0\AntMaze.csproj.CoreCompileInputs.cache
+C:\network\cc\AntMaze\obj\Debug\net8.0\AntMaze.sourcelink.json
+C:\network\cc\AntMaze\obj\Debug\net8.0\AntMaze.dll
+C:\network\cc\AntMaze\obj\Debug\net8.0\refint\AntMaze.dll
+C:\network\cc\AntMaze\obj\Debug\net8.0\AntMaze.pdb
+C:\network\cc\AntMaze\obj\Debug\net8.0\AntMaze.genruntimeconfig.cache
+C:\network\cc\AntMaze\obj\Debug\net8.0\ref\AntMaze.dll
