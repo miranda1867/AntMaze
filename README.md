@@ -21,7 +21,7 @@ This project was developed using the following technologies:
 🚀 Getting Started
 To get started with the project, follow these steps:
 
-1. Clone the repository:
-   ```git clone https://github.com/miranda1867/AntMaze.git```
+Clone the repository:
+```git clone https://github.com/miranda1867/AntMaze.git```
    
-2. cd AntMaze
+3. cd AntMaze
