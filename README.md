@@ -16,8 +16,6 @@ This project was developed using the following technologies:
 - C#
 - .NET 8.0
 
-# Screenshots
-
 # Getting Started
 To get started with the project, follow these steps:
 
