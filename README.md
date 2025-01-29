@@ -24,6 +24,6 @@ To get started with the project, follow these steps:
 1. Clone the repository:
 ```bash
 git clone https://github.com/miranda1867/AntMaze.git
-
+```
 2. Open 
 3. cd AntMaze
