@@ -19,14 +19,16 @@ This project was developed using the following technologies:
 # ▶Getting Started
 To get started with the project, follow these steps:
 
-1. Clone the repository:
+### Requisitos previos:
+- .NET 8.0 instalado
+  
+### Instructions to start
+1. Clone the repository
 ```bash
 git clone https://github.com/miranda1867/AntMaze.git
 ```
 2. Open the terminal and navigate to the folder where you downloaded the game
 3. Run the following command to start the game:
-   ```bash
-   dotnet run
-   ```
-   
-5. 
+```bash
+dotnet run
+```
