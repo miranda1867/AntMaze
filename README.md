@@ -11,7 +11,7 @@ AntMaze is a maze simulation game where players control ants navigating through 
 - Obstacle Detection: Ants can detect and avoid obstacles within the maze.
 - Turn-Based Gameplay: The game alternates between players, allowing for strategic moves.
 
-# Technologies Used
+# ⚒Technologies Used
 This project was developed using the following technologies:
 - C#
 - .NET 8.0
