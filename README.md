@@ -1,6 +1,6 @@
-# Welcome to Ant Maze! 
+# 🐜Welcome to Ant Maze! 
 
-🐜This a C# console game where you control a colony of ants in their quest to return to their anthill through a challenging maze.
+This a C# console game where you control a colony of ants in their quest to return to their anthill through a challenging maze.
 
 # Description  
 AntMaze is a maze simulation game where players control ants navigating through a randomly generated maze. The objective is to reach the anthill while avoiding obstacles and utilizing unique ant abilities strategically. The game combines elements of strategy and exploration, providing an engaging experience for players.
