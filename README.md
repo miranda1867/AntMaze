@@ -18,8 +18,7 @@ This project was developed using the following technologies:
 
 # ▶Getting Started
 To get started with the project, follow these steps:
-  
-### Instructions to start
+
 1. Make sure you have .NET 8.0 installed
 2. Clone the repository
 ```bash
