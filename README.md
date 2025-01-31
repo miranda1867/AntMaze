@@ -15,22 +15,26 @@ Ant Maze is a console-based maze simulation game where players control an ant wi
 
 # 🔍Classes and Methods Overview
 
+### Program Class
+The `Program` class serves as the entry point of the application, initializing the game and starting the gameplay loop.
+
 ### Ant Class
-The `Ant` class represents the ant controlled by the player, including its properties and abilities. Each ant has a name, a unique skill, and coordinates in the maze. The class includes methods to use the ant's skill and manage cooldowns.
+The `Ant` class represents the ant controlled by the player, including its properties and ability. Each ant has a name, a unique ability, and coordinates in the maze. The class includes methods to use the ant's ability and manage cooldowns.
 
 ### Maze Class
 The `Maze` class manages the maze structure and interactions. It initializes the maze, allows movement of the ant, and places barriers. The maze can be printed to the console to visualize the current state.
 
+### MazeGenerator Class
+The `MazeGenerator` class is responsible for generating the maze using Prim's algorithm. It initializes the maze with walls and creates paths by randomly selecting walls and checking their neighboring cells. The class includes methods to generate the maze, check if a cell is part of the path, and add neighboring walls to the processing list.
+
 ### Cell Class
 The `Cell` class represents a single cell in the maze. It tracks whether the cell is an obstacle and whether it is hidden from view.
 
-### Game Class
-The `Game` class controls the overall game flow, including player turns and interactions. It initializes the maze and players, displays game information, and contains the main loop for gameplay.
+### Player Class
+The `Player` class represents a player in the game, managing their ant. It includes methods to add an ant and use its skill.
 
-This structure allows for strategic gameplay as players navigate their ants through the maze, utilizing unique skills to overcome obstacles and reach the anthill.
-
-Please note that the game is still in development, and some features may not function as expected. Your feedback is valuable as we continue to improve the gameplay experience. Thank you for your understanding!
-
+### GameManager Class
+The `GameManager` class controls the overall game flow, including player turns and interactions. It initializes the maze and players, displays game information, and contains the main loop for gameplay.
 
 # ⚒️Technologies Used
 This project was developed using the following technologies:
