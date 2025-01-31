@@ -12,7 +12,7 @@ Ant Maze is a console-based maze simulation game where players control an ant wi
 - **Exploration Elements**: Discover hidden paths and resources within the maze to reach the anthill.
 
 > **Importante**  
-> - Please note that the game is still in development, and some features may not function as expected. ¡Your feedback is very valuable for improving the gameplay experience!
+> Please note that the game is still in development, and some features may not function as expected. ¡Your feedback is very valuable for improving the gameplay experience!
 
 # 🔍Classes and Methods Overview
 
