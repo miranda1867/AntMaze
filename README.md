@@ -23,5 +23,10 @@ To get started with the project, follow these steps:
 ```bash
 git clone https://github.com/miranda1867/AntMaze.git
 ```
-2. Open 
-3. cd AntMaze
+2. Open the terminal and navigate to the folder where you downloaded the game
+3. Run the following command to start the game:
+   ```bash
+   dotnet run
+   ```
+   
+5. 
