@@ -16,7 +16,7 @@ This project was developed using the following technologies:
 - C#
 - .NET 8.0
 
-# ▶Getting Started
+# ▶How to Get Started
 To get started with the project, follow these steps:
 
 1. Make sure you have .NET 8.0 installed
