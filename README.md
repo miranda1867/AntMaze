@@ -13,7 +13,7 @@ Ant Maze is a console-based maze simulation game where players control an ant wi
 
 **Please note that the game is still in development, and some features may not function as expected. ¡Your feedback is very valuable for improving the gameplay experience!**
 
-# Classes and Methods Overview
+# 🔍Classes and Methods Overview
 
 ### Ant Class
 The `Ant` class represents the ant controlled by the player, including its properties and abilities. Each ant has a name, a unique skill, and coordinates in the maze. The class includes methods to use the ant's skill and manage cooldowns.
