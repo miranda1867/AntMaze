@@ -16,7 +16,7 @@ This project was developed using the following technologies:
 - C#
 - .NET 8.0
 
-# Getting Started
+# ▶Getting Started
 To get started with the project, follow these steps:
 
 1. Clone the repository:
