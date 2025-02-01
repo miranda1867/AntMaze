@@ -81,7 +81,7 @@ To get started with the project, follow these steps:
 ```bash
 git clone https://github.com/miranda1867/AntMaze.git
 ```
-3. Open the terminal and navigate to the folder where you downloaded the game using the following command:
+3. Open the directory where you downloaded the game in the console by using the following command:
 ```bash
 cd
 ```
