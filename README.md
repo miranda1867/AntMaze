@@ -14,7 +14,7 @@ Ant Maze is a console-based maze simulation game where players control an ant wi
 > ### **Important** 
 > Please note that the game is still in development, and some features may not function as expected. ¡Your feedback is very valuable for improving the gameplay experience!
 
-## 🎮How to Play Ant Maze
+# 🎮How to Play Ant Maze
 
 1. **Starting the Game**:
    - When you run the game, it initializes a 10x10 maze and displays it in the console.
