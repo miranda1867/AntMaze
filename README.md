@@ -14,6 +14,38 @@ Ant Maze is a console-based maze simulation game where players control an ant wi
 > ### **Importante** 
 > Please note that the game is still in development, and some features may not function as expected. ¡Your feedback is very valuable for improving the gameplay experience!
 
+## How to Play Ant Maze
+
+1. **Starting the Game**:
+   - When you run the game, it initializes a 10x10 maze and displays it in the console.
+   - Two players are created, each with their own ant.
+
+2. **Game Controls**:
+   - Use the following keys to control the movement of your ants:
+     - **W**: Move Up
+     - **A**: Move Left
+     - **S**: Move Down
+     - **D**: Move Right
+     - **G**: Use the ant's ability
+
+3. **Objective**:
+   - Navigate your ant through the maze to reach the anthill while avoiding obstacles.
+   - Use the unique abilities of your ant strategically to overcome challenges.
+
+4. **Gameplay Loop**:
+   - The game alternates turns between players.
+   - On each turn, the current player can choose to use an ant's skill or move the ant in one of the four directions.
+   - If the player chooses to move, the game checks if the new position is valid (not an obstacle).
+   - After each move, the maze is printed to the console to visualize the current state.
+
+5. **Using Ant Skills**:
+   - Each ant has a unique skill that can be used during the player's turn.
+   - Skills may include revealing parts of the maze, creating barriers, or other strategic advantages.
+   - Skills have cooldowns, so players must manage their usage wisely.
+
+6. **Winning the Game**:
+   - The goal is to navigate through the maze effectively and reach the anthill.
+
 # 🔍Classes and Methods Overview
 
 ### Program Class
