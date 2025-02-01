@@ -1,8 +1,4 @@
 # 🐜Welcome to Ant Maze! 
-
-> [!WARNING]
-> Este es un mensaje de advertencia.
-
 This is a C# console game where you control an ant in its quest to return to its anthill through a challenging maze.
 
 # 📃Description  
@@ -14,7 +10,7 @@ Ant Maze is a console-based maze simulation game where players control an ant wi
 - **Obstacle Avoidance**: Navigate through various obstacles that challenge your decision-making skills.
 - **Exploration Elements**: Discover hidden paths and resources within the maze to reach the anthill.
 
-> ### **Important** 
+> ### [!Important] 
 > Please note that the game is still in development, and some features may not function as expected. ¡Your feedback is very valuable for improving the gameplay experience!
 
 # ⚒️Technologies Used
