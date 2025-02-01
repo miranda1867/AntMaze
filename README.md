@@ -1,5 +1,8 @@
 # 🐜Welcome to Ant Maze! 
 
+> [!WARNING]
+> Este es un mensaje de advertencia.
+
 This is a C# console game where you control an ant in its quest to return to its anthill through a challenging maze.
 
 # 📃Description  
