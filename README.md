@@ -77,7 +77,7 @@ The `GameManager` class controls the overall game flow, including player turns a
 # ▶️How to Get Started
 To get started with the project, follow these steps:
 
-1. Make sure you have .NET 8.0 installed. You can download it here: https://dotnet.microsoft.com/download/dotnet/8.0
+1. Make sure you have (.NET 8.0)[https://dotnet.microsoft.com/download/dotnet/8.0] installed. You can download it here: 
 2. Clone the repository:
 ```bash
 git clone https://github.com/miranda1867/AntMaze.git
