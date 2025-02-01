@@ -12,6 +12,7 @@ namespace AntMaze
         public Game()
         {
             maze = new Maze(10, 10); // Crear un laberinto de 10x10
+            maze.PrintMaze(); // Print the maze after initialization
             players = new List<Player>
             {
                 new Player("Jugador 1"),
@@ -85,6 +86,7 @@ namespace AntMaze
                             continue;
                     }
                     maze.MoveAnt(ant, newX, newY);
+                    maze.PrintMaze(); // Print the maze after each move
                 }
 
                 currentPlayer.ReduceCooldowns();
@@ -93,3 +95,4 @@ namespace AntMaze
         }
     }
 }
+

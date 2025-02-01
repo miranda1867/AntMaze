@@ -11,7 +11,7 @@ namespace AntMaze
             Cells = new Cell[width, height];
             InitializeMaze(width, height);
         }
-
+        
         public void InitializeMaze(int width, int height)
         {
             MazeGenerator generator = new MazeGenerator(width, height);
@@ -55,5 +55,19 @@ namespace AntMaze
                 Cells[x, y].IsObstacle = true;
             }
         }
+
+        // New method to print the maze
+        public void PrintMaze()
+        {
+            for (int y = 0; y < Cells.GetLength(1); y++)
+            {
+                for (int x = 0; x < Cells.GetLength(0); x++)
+                {
+                    Console.Write(Cells[x, y].IsObstacle ? "#" : " ");
+                }
+                Console.WriteLine();
+            }
+        }
     }
 }
+
