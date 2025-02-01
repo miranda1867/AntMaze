@@ -14,6 +14,11 @@ Ant Maze is a console-based maze simulation game where players control an ant wi
 > ### **Important** 
 > Please note that the game is still in development, and some features may not function as expected. ¡Your feedback is very valuable for improving the gameplay experience!
 
+# ⚒️Technologies Used
+This project was developed using the following technologies:
+- C#
+- .NET 8.0
+
 # 🎮How to Play Ant Maze
 
 1. **Starting the Game**:
@@ -68,11 +73,6 @@ The `Player` class represents a player in the game, managing their ant. It inclu
 
 ### GameManager Class
 The `GameManager` class controls the overall game flow, including player turns and interactions. It initializes the maze and players, displays game information, and contains the main loop for gameplay.
-
-# ⚒️Technologies Used
-This project was developed using the following technologies:
-- C#
-- .NET 8.0
 
 # ▶️How to Get Started
 To get started with the project, follow these steps:
