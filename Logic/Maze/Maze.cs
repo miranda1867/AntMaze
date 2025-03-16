@@ -1,5 +1,9 @@
 using System;
 
+//Gestiona la estructura del laberinto, representada por una matriz de Cell.
+//Genera el laberinto utilizando MazeGenerator.
+//Proporciona métodos para mover hormigas (MoveAnt) y colocar barreras (PlaceBarrier)
+
 namespace AntMaze
 {
     public class Maze
@@ -56,7 +60,7 @@ namespace AntMaze
             }
         }
 
-        // New method to print the maze
+        //here a new method to print the maze...
         public void PrintMaze()
         {
             for (int y = 0; y < Cells.GetLength(1); y++)
@@ -70,4 +74,3 @@ namespace AntMaze
         }
     }
 }
-

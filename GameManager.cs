@@ -24,7 +24,7 @@ namespace AntMaze
             players[0].AddAnt(new Ant("Hormiga de Fuego Roja", "Movimiento extra"));
             players[1].AddAnt(new Ant("Hormiga Cortadora de Hojas", "Crear barrera"));
             players[1].AddAnt(new Ant("Hormiga Argentina", "Interrumpir turno del oponente"));
-            players[1].AddAnt(new Ant("Hormiga Argentina", "Invisibilidad temporal"));
+            players[1].AddAnt(new Ant("Hormiga Exploradora", "Invisibilidad temporal"));
 
             turn = 0;
         }

@@ -9,7 +9,7 @@ namespace AntMaze
         private bool[,] maze;
         private Random rnd = new Random();
 
-        // Constructor de la clase MazeGnerator
+        //constructor de la clase MazeGnerator
         public MazeGenerator(int width, int height)
         {
             this.width = width; 
@@ -17,10 +17,10 @@ namespace AntMaze
             maze = new bool[width, height];
         }
 
-        // Metodo para generar el laberinto usando el algoritmo de Prim
+        //Método para generar el laberinto usando el algoritmo de Prim..
         public bool[,] GenerateMaze()
         {
-            // Initialize maze with walls
+            //Initialize maze with walls
             for (int x = 0; x < width; x++)
             {
                 for (int y = 0; y < height; y++)
@@ -29,11 +29,11 @@ namespace AntMaze
                 }
             }
 
-            // Start from a random point in the maze
+            //start from a random point in the maze... requisite of project
             int startX = rnd.Next(width);
             int startY = rnd.Next(height);
 
-            maze[startX, startY] = false; // False represents a path
+            maze[startX, startY] = false; //false represents a path
             List<Tuple<int, int>> walls = new List<Tuple<int, int>> { new Tuple<int, int>(startX, startY) };
 
             while (walls.Count > 0)
@@ -47,14 +47,14 @@ namespace AntMaze
 
                 if (IsPartOfPath(x, y))
                 {
-                    maze[x, y] = false; // Create a path in the maze
-                    AddWalls(x, y, walls); // Add neighboring walls to the list
+                    maze[x, y] = false; //create a path in the maze...
+                    AddWalls(x, y, walls); //Add neighboring walls a la lista...
                 }
             }
             return maze;
         }
 
-        // Check if the cell is part of the maze's path
+        //Check if the cell is part of the maze's path
         private bool IsPartOfPath(int x, int y)
         {
             int count = 0;
@@ -65,7 +65,7 @@ namespace AntMaze
             return count == 1;
         }
 
-        // Add neighboring walls of the cell to the list
+        //Add neighboring walls of the cell to the list
         private void AddWalls(int x, int y, List<Tuple<int, int>> walls)
         {
             if (x > 0) walls.Add(new Tuple<int, int>(x - 1, y));
