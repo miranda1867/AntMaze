@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AntMaze")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76bd42099694a21c70e08742a91b139b1c0b8183")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6203614bedcf24b667151bd60dea4cdd2928097")]
 [assembly: System.Reflection.AssemblyProductAttribute("AntMaze")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AntMaze")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

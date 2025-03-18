@@ -1,6 +1,9 @@
 using System;
 using System.Collections.Generic;
 
+//La clase MazeGenerator es responsable de generar el laberinto usando el algoritmo de Prim. Inicializa el laberinto con paredes y crea caminos seleccionando paredes aleatoriamente y comprobando sus celdas vecinas.
+//Incluye métodos para generar el laberinto, comprobar si una celda es parte del camino y agregar paredes vecinas a la lista de procesamiento.
+
 namespace AntMaze
 {
     public class MazeGenerator
@@ -20,12 +23,12 @@ namespace AntMaze
         //Método para generar el laberinto usando el algoritmo de Prim..
         public bool[,] GenerateMaze()
         {
-            //Initialize maze with walls
+            //imitialize maze with walls...
             for (int x = 0; x < width; x++)
             {
                 for (int y = 0; y < height; y++)
                 {
-                    maze[x, y] = true; // True represents a wall
+                    maze[x, y] = true; // True representa unan pared
                 }
             }
 
@@ -58,10 +61,10 @@ namespace AntMaze
         private bool IsPartOfPath(int x, int y)
         {
             int count = 0;
-            if (x > 0 && !maze[x - 1, y]) count++;
-            if (x < width - 1 && !maze[x + 1, y]) count++;
-            if (y > 0 && !maze[x, y - 1]) count++;
-            if (y < height - 1 && !maze[x, y + 1]) count++;
+            if (x > 0 && !maze[x - 1, y]) count++; //verifica la celda izquierda 
+            if (x < width - 1 && !maze[x + 1, y]) count++; //verifica la celda derecha
+            if (y > 0 && !maze[x, y - 1]) count++; //arriba 
+            if (y < height - 1 && !maze[x, y + 1]) count++; //abajo
             return count == 1;
         }
 

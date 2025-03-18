@@ -1,5 +1,7 @@
 using System.Collections.Generic;
 
+//La clase Player representa a un jugador en el juego, gestionando su hormiga. Incluye métodos para agregar una hormiga y usar su habilidad.
+
 namespace AntMaze
 {
     public class Player

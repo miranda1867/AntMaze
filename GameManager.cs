@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 
+//La clase GameManager controla el flujo general del juego, incluyendo los turnos de los jugadores y las interacciones. Inicializa el laberinto y los jugadores, muestra información del juego y contiene el bucle principal para el juego.
 namespace AntMaze
 {
     public class Game

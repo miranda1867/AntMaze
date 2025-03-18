@@ -1,4 +1,6 @@
 namespace AntMaze;
+//La clase Ant representa la hormiga controlada por el jugador, incluyendo sus propiedades y habilidad. Cada hormiga tiene un nombre, una habilidad única y coordenadas en el laberinto.
+//Incluye métodos para usar la habilidad de la hormiga y gestionar los tiempos de enfriamiento
 public class Ant
 {
     public string Name { get; set; }
